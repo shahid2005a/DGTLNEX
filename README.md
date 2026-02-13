@@ -1,4 +1,4 @@
-
+![logo](https://github.com/shahid2005a/DGTLNEX/blob/main/dgtlnex.png)
 <p align="left">
 <a href="#"><img title="Made in INDIA" src="https://img.shields.io/badge/MADE%20IN-INDIA-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
@@ -69,4 +69,5 @@ cd DGTLNEX
   <img src="https://img.shields.io/badge/Telegram Bot-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram Bot">
 </a>  
 <br>
+
 
