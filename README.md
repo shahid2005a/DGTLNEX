@@ -23,7 +23,7 @@
 
 ## Single Command :
 ```
-apt update ; apt install git -y ; git clone git://github.com/htr-tech/nexphisher.git ; cd nexphisher ; bash setup ; bash nexphisher
+apt update ; apt install git -y ; git clone git://github.com/shahid2005a/DGTLNEX.git ; cd DGTLNEX ; bash setup ; bash dgtlnex
 ```
 
 
@@ -69,3 +69,4 @@ cd DGTLNEX
   <img src="https://img.shields.io/badge/Telegram Bot-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram Bot">
 </a>  
 <br>
+
