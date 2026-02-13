@@ -14,12 +14,8 @@
 </p>
 <p align="center">
 <a href="#"><img title="Version" src="https://img.shields.io/badge/Version-1.0-green.svg?style=flat-square"></a>
-<a href="#"><img title="Language" src="https://badges.frapsoft.com/bash/v1/bash.png?v=103"></a>
-<a href="https://github.com/htr-tech/followers"><img title="Followers" src="https://img.shields.io/github/followers/htr-tech?color=blue&style=flat-square"></a>
-<a href="https://github.com/htr-tech/nexphisher/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/htr-tech/nexphisher?color=red&style=flat-square"></a>
-<a href="https://github.com/htr-tech/nexphisher/network/members"><img title="Forks" src="https://img.shields.io/github/forks/htr-tech/nexphisher?color=red&style=flat-square"></a>
-<a href="https://github.com/htr-tech/nexphisher/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/htr-tech/nexphisher?label=Watchers&color=blue&style=flat-square"></a>
-</p>
+<a href="#"><img title="Language" src="https://badges.frapsoft.com/bash/v1/bash.png?v=103">
+
 
 ## Installation :
 
@@ -29,7 +25,7 @@
 * `cd nexphisher`
 #### > SETUP : `bash setup`
 #### > SETUP [TERMUX] : `bash tmux_setup`
-#### > Run : `bash nexphisher`
+#### > Run : `bash dgtlnex`
 
 ## Single Command :
 ```
@@ -48,10 +44,7 @@ apt update ; apt install git -y ; git clone git://github.com/htr-tech/nexphisher
 #### [+] Easy for Beginners !
 
 ## Credits :
-#### > Zphisher (https://github.com/htr-tech/zphisher)
-#### > The Linux Choice (https://github.com/thelinuxchoice)
-#### > DarkSecDevelopers (https://github.com/DarkSecDevelopers)
-#### > Undeadsec (https://github.com/Undeadsec)
+#### > DGTLCAM (https://github.com/shahid2005a/Cemra.git)
 
 ## Tunelling Options :
 #### > Localhost (127.0.0.1)
@@ -64,5 +57,6 @@ apt update ; apt install git -y ; git clone git://github.com/htr-tech/nexphisher
 [![Github](https://img.shields.io/badge/Github-HTR--TECH-green?style=for-the-badge&logo=github)](https://github.com/htr-tech)
 [![Instagram](https://img.shields.io/badge/IG-%40tahmid.rayat-red?style=for-the-badge&logo=instagram)](https://www.instagram.com/tahmid.rayat)
 [![Messenger](https://img.shields.io/badge/Chat-Messenger-blue?style=for-the-badge&logo=messenger)](https://m.me/tahmid.rayat.official)
+
 
 
