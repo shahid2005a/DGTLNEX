@@ -1,1 +1,413 @@
+# =====================================================
+#  DGTLNEX - .gitignore
+#  Version: 2.0.0
+#  Developer: Aryan-Afridi
+#  GitHub: https://github.com/shahid2005a/DGTLNEX
+# =====================================================
 
+# =====================================================
+# Python
+# =====================================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+*.pyd
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+.pybuilder/
+target/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# poetry
+poetry.lock
+
+# pdm
+.pdm.toml
+
+# PEP 582
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# =====================================================
+# Termux / Android
+# =====================================================
+
+# Termux specific
+.storage/
+.termux/
+.bash_history
+.bash_logout
+.bashrc
+.profile
+.zshrc
+.zsh_history
+
+# Android
+*.apk
+*.dex
+*.jar
+*.class
+.android/
+.gradle/
+.idea/
+*.iml
+
+# =====================================================
+# IDE / Editor
+# =====================================================
+
+# Visual Studio Code
+.vscode/
+.code-workspace
+*.code-workspace
+*.log
+*.pid
+*.seed
+*.pid.lock
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Atom
+.atom/
+.config/
+
+# Vim
+*.swp
+*.swo
+*~
+*.un~
+*.bak
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# IntelliJ IDEA / PyCharm
+.idea/
+*.iws
+*.iml
+*.ipr
+.idea_modules/
+out/
+target/
+
+# Eclipse
+.settings/
+.classpath
+.project
+.metadata/
+
+# =====================================================
+# Output / Data Files
+# =====================================================
+
+# DGTL output folder (IMPORTANT)
+DGTL/
+/DGTL
+*.html
+protected.html
+output/
+/data/
+*.out
+
+# Backup files
+*.backup
+*.bak
+*.tmp
+*.temp
+*.old
+*.orig
+*.swp
+
+# =====================================================
+# Logs and Databases
+# =====================================================
+
+# Logs
+*.log
+logs/
+.logs/
+debug.log
+error.log
+info.log
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+
+# =====================================================
+# OS / System
+# =====================================================
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Linux
+*~
+.directory
+.document
+.eog
+.gnome
+.gimp
+.kde
+.thumbnails
+*.crash
+*.core
+
+# =====================================================
+# Docker
+# =====================================================
+
+# Docker
+.dockerignore
+Dockerfile*
+docker-compose*.yml
+docker-compose*.yaml
+*.tar
+*.tar.gz
+*.img
+container/
+docker/
+
+# =====================================================
+# Git
+# =====================================================
+
+# Git
+*.patch
+*.diff
+*.merge
+*.orig
+.gitattributes
+.gitmodules
+.gitkeep
+
+# =====================================================
+# Security / Sensitive
+# =====================================================
+
+# Sensitive files
+*.pem
+*.key
+*.crt
+*.cert
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.truststore
+*.env
+*.secret
+*.token
+*.password
+credentials
+secrets/
+.ssh/
+id_rsa
+id_dsa
+*.pub
+
+# =====================================================
+# Temporary / Cache
+# =====================================================
+
+# Cache
+.cache/
+.cache
+*.cache
+.temp/
+.temp
+*.temp
+*.tmp
+
+# =====================================================
+# Project Specific
+# =====================================================
+
+# DGTLNEX specific
+*.zip
+*.rar
+*.7z
+*.gz
+*.bz2
+*.xz
+*.iso
+*.dmg
+*.img
+*.vhd
+*.vmdk
+
+# Requirements
+requirements.lock
+requirements-dev.txt
+
+# Version control
+VERSION.backup
+CHANGELOG.backup
+
+# Test files
+test/
+tests/
+*.test
+*.spec
