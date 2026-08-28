@@ -1,0 +1,479 @@
+================================================================================
+  ████████╗███████╗██████╗ ███╗   ███╗██╗   ██╗██╗  ██╗
+  ╚══██╔══╝██╔════╝██╔══██╗████╗ ████║██║   ██║╚██╗██╔╝
+     ██║   █████╗  ██████╔╝██╔████╔██║██║   ██║ ╚███╔╝ 
+     ██║   ██╔══╝  ██╔══██╗██║╚██╔╝██║██║   ██║ ██╔██╗ 
+     ██║   ███████╗██║  ██║██║ ╚═╝ ██║╚██████╔╝██╔╝ ██╗
+     ╚═╝   ╚══════╝╚═╝  ╚═╝╚═╝     ╚═╝ ╚═════╝ ╚═╝  ╚═╝
+================================================================================
+
+  📱  DGTLNEX - Complete Termux Setup Guide
+  👨‍💻  Developer: Aryan-Afridi
+  🔗  GitHub: https://github.com/shahid2005a
+  📅  Version: 2.0.0
+
+================================================================================
+                          TABLE OF CONTENTS
+================================================================================
+
+  1. What is Termux?
+  2. Installation
+  3. Basic Setup
+  4. Storage Permission
+  5. DGTLNEX Setup
+  6. Running the Tool
+  7. Troubleshooting
+  8. Advanced Setup
+  9. Useful Commands
+  10. Uninstall Guide
+
+================================================================================
+                          1. WHAT IS TERMUX?
+================================================================================
+
+  Termux is a powerful terminal emulator for Android that provides a Linux
+  environment without rooting your device. It allows you to:
+
+  ✓ Run Python scripts
+  ✓ Use Git for version control
+  ✓ Install packages with APT
+  ✓ Run Linux commands
+  ✓ Develop applications
+  ✓ Use SSH and other networking tools
+
+  Requirements:
+  ────────────────────────────────────────────────────────────────────────────
+  • Android 7.0 or higher
+  • 100MB free storage
+  • Internet connection (for installation)
+
+================================================================================
+                          2. INSTALLATION
+================================================================================
+
+  📥 DOWNLOAD TERMUX:
+  ────────────────────────────────────────────────────────────────────────────
+
+  Option 1: Google Play Store (Recommended)
+  ────────────────────────────────────────────────────────────────────────────
+  1. Open Play Store
+  2. Search "Termux"
+  3. Install by F-Droid
+
+  Option 2: F-Droid (Best Version)
+  ────────────────────────────────────────────────────────────────────────────
+  1. Install F-Droid app
+  2. Search "Termux"
+  3. Install Termux
+
+  Option 3: GitHub (Latest)
+  ────────────────────────────────────────────────────────────────────────────
+  https://github.com/termux/termux-app/releases
+
+  ⚠️ IMPORTANT:
+  ────────────────────────────────────────────────────────────────────────────
+  • Use F-Droid version for better compatibility
+  • Grant all permissions when asked
+  • Allow background activity
+
+================================================================================
+                          3. BASIC SETUP
+================================================================================
+
+  🚀 FIRST TIME SETUP:
+  ────────────────────────────────────────────────────────────────────────────
+
+  Step 1: Open Termux
+  ────────────────────────────────────────────────────────────────────────────
+  Wait for packages to install automatically
+
+  Step 2: Update System
+  ────────────────────────────────────────────────────────────────────────────
+  $ pkg update && pkg upgrade -y
+
+  This will:
+  ✓ Update package lists
+  ✓ Upgrade all installed packages
+  ✓ Fix any broken packages
+
+  Step 3: Install Essential Packages
+  ────────────────────────────────────────────────────────────────────────────
+  $ pkg install python git nano wget curl -y
+
+  What each package does:
+  ────────────────────────────────────────────────────────────────────────────
+  python  : Python 3.x interpreter
+  git     : Version control system
+  nano    : Text editor
+  wget    : Download files
+  curl    : Transfer data
+
+  Step 4: Check Python Version
+  ────────────────────────────────────────────────────────────────────────────
+  $ python --version
+  Output: Python 3.11.x
+
+  Step 5: Check Git Version
+  ────────────────────────────────────────────────────────────────────────────
+  $ git --version
+  Output: git version 2.x.x
+
+================================================================================
+                          4. STORAGE PERMISSION
+================================================================================
+
+  📁 STORAGE SETUP:
+  ────────────────────────────────────────────────────────────────────────────
+
+  Step 1: Grant Storage Permission
+  ────────────────────────────────────────────────────────────────────────────
+  $ termux-setup-storage
+
+  Step 2: Allow Permission
+  ────────────────────────────────────────────────────────────────────────────
+  When prompt appears, click "Allow"
+
+  Step 3: Verify Access
+  ────────────────────────────────────────────────────────────────────────────
+  $ ls /storage/emulated/0/
+  Should show files from your internal storage
+
+  Step 4: Check DGTL Folder
+  ────────────────────────────────────────────────────────────────────────────
+  $ mkdir -p /storage/emulated/0/DGTL
+  $ ls /storage/emulated/0/ | grep DGTL
+  Output: DGTL
+
+  📂 STORAGE PATHS:
+  ────────────────────────────────────────────────────────────────────────────
+  Internal Storage  : /storage/emulated/0/
+  DCIM Directory    : /storage/emulated/0/DCIM/
+  Downloads         : /storage/emulated/0/Download/
+  Documents         : /storage/emulated/0/Documents/
+  Music             : /storage/emulated/0/Music/
+  Pictures          : /storage/emulated/0/Pictures/
+  Videos            : /storage/emulated/0/Videos/
+
+================================================================================
+                          5. DGTLNEX SETUP
+================================================================================
+
+  🛠️ COMPLETE DGTLNEX SETUP:
+  ────────────────────────────────────────────────────────────────────────────
+
+  Method 1: Git Clone (Recommended)
+  ────────────────────────────────────────────────────────────────────────────
+  Step 1: Clone Repository
+  $ git clone https://github.com/shahid2005a/DGTLNEX.git
+
+  Step 2: Enter Directory
+  $ cd DGTLNEX
+
+  Step 3: Make Executable
+  $ chmod +x main.py
+
+  Step 4: Run Tool
+  $ python main.py
+
+  Method 2: Manual Script Creation
+  ────────────────────────────────────────────────────────────────────────────
+  Step 1: Create Script
+  $ nano dgtl_protect.py
+
+  Step 2: Paste Code
+  (Copy your Python script)
+
+  Step 3: Save
+  Ctrl+X -> Y -> Enter
+
+  Step 4: Make Executable
+  $ chmod +x dgtl_protect.py
+
+  Step 5: Run
+  $ python dgtl_protect.py
+
+  Method 3: One-Line Setup
+  ────────────────────────────────────────────────────────────────────────────
+  $ pkg update -y && pkg upgrade -y && pkg install python git -y && termux-setup-storage && git clone https://github.com/shahid2005a/DGTLNEX.git && cd DGTLNEX && chmod +x main.py && python main.py
+
+  CREATE GLOBAL ALIAS:
+  ────────────────────────────────────────────────────────────────────────────
+  $ echo 'alias dgtl="cd ~/DGTLNEX && python main.py"' >> ~/.bashrc
+  $ source ~/.bashrc
+
+  Now you can run just by typing:
+  $ dgtl
+
+================================================================================
+                          6. RUNNING THE TOOL
+================================================================================
+
+  🎯 HOW TO USE:
+  ────────────────────────────────────────────────────────────────────────────
+
+  Step 1: Open Termux
+  ────────────────────────────────────────────────────────────────────────────
+
+  Step 2: Navigate to DGTLNEX
+  ────────────────────────────────────────────────────────────────────────────
+  $ cd ~/DGTLNEX
+
+  Step 3: Run Tool
+  ────────────────────────────────────────────────────────────────────────────
+  $ python main.py
+  OR
+  $ dgtl  (if alias created)
+
+  Step 4: Choose Option
+  ────────────────────────────────────────────────────────────────────────────
+  ┌─────────────────────────────────────────────┐
+  │  1. 🛡️  PROTECT HTML                        │
+  │  2. 🚪  EXIT                                │
+  └─────────────────────────────────────────────┘
+  Enter Choice (1/2) » 1
+
+  Step 5: Paste HTML Code
+  ────────────────────────────────────────────────────────────────────────────
+  📝  PASTE HTML CODE BELOW
+  Press Ctrl+D when done, Ctrl+C to cancel
+
+  Step 6: Check Output
+  ────────────────────────────────────────────────────────────────────────────
+  ✅  HTML Protected Successfully!
+  📁  Saved » /storage/emulated/0/DGTL/protected.html
+  📏  Size » 12345 bytes
+
+================================================================================
+                          7. TROUBLESHOOTING
+================================================================================
+
+  ⚠️ COMMON ERRORS & SOLUTIONS:
+  ────────────────────────────────────────────────────────────────────────────
+
+  ❌ Error: "pkg: command not found"
+  ────────────────────────────────────────────────────────────────────────────
+  Solution: You're not in Termux
+  $ echo $TERMUX_VERSION
+  If empty, you're not in Termux
+
+  ❌ Error: "python: command not found"
+  ────────────────────────────────────────────────────────────────────────────
+  Solution: Install Python
+  $ pkg install python -y
+
+  ❌ Error: "git: command not found"
+  ────────────────────────────────────────────────────────────────────────────
+  Solution: Install Git
+  $ pkg install git -y
+
+  ❌ Error: "Permission denied"
+  ────────────────────────────────────────────────────────────────────────────
+  Solution: Grant storage permission
+  $ termux-setup-storage
+  # Then click "Allow"
+
+  ❌ Error: "No such file or directory"
+  ────────────────────────────────────────────────────────────────────────────
+  Solution: Check path
+  $ pwd  # Current directory
+  $ ls -la  # List files
+
+  ❌ Error: "Cloning failed"
+  ────────────────────────────────────────────────────────────────────────────
+  Solution: Check internet
+  $ ping github.com
+  # Or use manual method
+
+  ❌ Error: "DecompressionStream not supported"
+  ────────────────────────────────────────────────────────────────────────────
+  Solution: Use modern browser
+  • Chrome 80+
+  • Firefox 113+
+  • Edge 80+
+  • Safari 16.4+
+
+  ❌ Error: "Out of memory"
+  ────────────────────────────────────────────────────────────────────────────
+  Solution: HTML too large
+  • Split into smaller files
+  • Use fewer lines
+
+================================================================================
+                          8. ADVANCED SETUP
+================================================================================
+
+  🚀 TERMUX CUSTOMIZATION:
+  ────────────────────────────────────────────────────────────────────────────
+
+  Install Extra Tools:
+  ────────────────────────────────────────────────────────────────────────────
+  $ pkg install root-repo
+  $ pkg install x11-repo
+  $ pkg install termux-api
+
+  Install Python Modules:
+  ────────────────────────────────────────────────────────────────────────────
+  $ pip install colorama pyfiglet tqdm
+
+  Create Beautiful Terminal:
+  ────────────────────────────────────────────────────────────────────────────
+  $ pkg install termux-style
+  $ termux-style
+
+  Install Extra Editors:
+  ────────────────────────────────────────────────────────────────────────────
+  $ pkg install vim
+  $ pkg install neovim
+  $ pkg install emacs
+
+  Install Networking Tools:
+  ────────────────────────────────────────────────────────────────────────────
+  $ pkg install openssh
+  $ pkg install nmap
+  $ pkg install netcat
+
+  Setup SSH Server:
+  ────────────────────────────────────────────────────────────────────────────
+  $ pkg install openssh
+  $ passwd  # Set password
+  $ sshd
+  $ ssh localhost -p 8022
+
+================================================================================
+                          9. USEFUL COMMANDS
+================================================================================
+
+  📋 TERMINAL COMMANDS:
+  ────────────────────────────────────────────────────────────────────────────
+
+  System Commands:
+  ────────────────────────────────────────────────────────────────────────────
+  pkg update                  # Update package lists
+  pkg upgrade                 # Upgrade packages
+  pkg list-all                # List all packages
+  pkg install [package]       # Install package
+  pkg uninstall [package]     # Uninstall package
+
+  File Commands:
+  ────────────────────────────────────────────────────────────────────────────
+  ls                          # List files
+  ls -la                      # List all files with details
+  cd [directory]              # Change directory
+  cd ~                        # Go to home
+  cd ..                       # Go back one directory
+  pwd                         # Show current path
+  mkdir [name]                # Create directory
+  rm [file]                   # Delete file
+  rm -rf [directory]          # Delete directory
+  cp [source] [dest]          # Copy file
+  mv [source] [dest]          # Move/rename file
+  cat [file]                  # View file content
+  nano [file]                 # Edit file with nano
+
+  DGTLNEX Commands:
+  ────────────────────────────────────────────────────────────────────────────
+  python main.py              # Run tool
+  dgtl                        # Run with alias
+  cd ~/DGTLNEX                # Go to tool directory
+  ls DGTL/                    # List protected files
+  cat DGTL/protected.html     # View protected file
+
+  Network Commands:
+  ────────────────────────────────────────────────────────────────────────────
+  ping google.com             # Check internet
+  ip a                        # Show IP address
+  ifconfig                    # Network info
+  ssh user@ip                 # SSH connection
+  termux-wifi-connectioninfo  # WiFi info
+
+================================================================================
+                          10. UNINSTALL GUIDE
+================================================================================
+
+  🗑️ COMPLETE UNINSTALL:
+  ────────────────────────────────────────────────────────────────────────────
+
+  Remove DGTLNEX Tool:
+  ────────────────────────────────────────────────────────────────────────────
+  $ rm -rf ~/DGTLNEX
+  $ sed -i '/alias dgtl/d' ~/.bashrc
+  $ source ~/.bashrc
+
+  Remove Output Files:
+  ────────────────────────────────────────────────────────────────────────────
+  $ rm -rf /storage/emulated/0/DGTL
+
+  Remove Python & Git:
+  ────────────────────────────────────────────────────────────────────────────
+  $ pkg uninstall python git -y
+
+  Reset Termux:
+  ────────────────────────────────────────────────────────────────────────────
+  Method 1: Clear Data
+  1. Go to Settings -> Apps
+  2. Find Termux
+  3. Tap "Clear Data"
+
+  Method 2: Reinstall
+  1. Uninstall Termux
+  2. Reinstall from Play Store
+
+  Clean All:
+  ────────────────────────────────────────────────────────────────────────────
+  $ rm -rf ~/storage
+  $ rm -rf ~/.termux
+  $ rm -rf ~/.bash_history
+  $ rm -rf ~/.gitconfig
+
+================================================================================
+                     COMPLETE SETUP SUMMARY
+================================================================================
+
+  ✅ CHECKLIST:
+  ────────────────────────────────────────────────────────────────────────────
+  ☐ Termux installed
+  ☐ System updated (pkg update && pkg upgrade)
+  ☐ Python installed (pkg install python)
+  ☐ Git installed (pkg install git)
+  ☐ Storage permission granted (termux-setup-storage)
+  ☐ DGTLNEX cloned (git clone ...)
+  ☐ Tool made executable (chmod +x main.py)
+  ☐ Tool runs successfully (python main.py)
+  ☐ Alias created (optional)
+
+  🎯 QUICK START COMMANDS:
+  ────────────────────────────────────────────────────────────────────────────
+  # One-command setup
+  pkg update -y && pkg upgrade -y && pkg install python git -y && termux-setup-storage && git clone https://github.com/shahid2005a/DGTLNEX.git && cd DGTLNEX && chmod +x main.py && python main.py
+
+  # Run tool
+  python main.py
+
+  # Run with alias
+  dgtl
+
+================================================================================
+                     THANK YOU FOR USING DGTLNEX! 🚀
+================================================================================
+
+  📞 SUPPORT:
+  ────────────────────────────────────────────────────────────────────────────
+  Developer : Aryan-Afridi
+  GitHub    : https://github.com/shahid2005a
+  YouTube 1 : https://www.youtube.com/@aryanafridi00
+  YouTube 2 : https://www.youtube.com/@DGTLCYBER
+  Telegram  : https://t.me/encrypt_code_decode_Bot
+
+  📝 ISSUES:
+  ────────────────────────────────────────────────────────────────────────────
+  If you face any issues, open an issue on GitHub:
+  https://github.com/shahid2005a/DGTLNEX/issues
+
+  ⭐ SUPPORT:
+  ────────────────────────────────────────────────────────────────────────────
+  • Star the GitHub repository
+  • Share with friends
+  • Follow on YouTube
+  • Join Telegram channel
+
+================================================================================

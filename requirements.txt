@@ -1,0 +1,14 @@
+# DGTLNEX - HTML Protect Tool
+# No external dependencies needed!
+# All modules are Python built-in
+
+# Required Python Modules (Built-in):
+# - zlib
+# - base64
+# - re
+# - sys
+# - os
+# - subprocess
+# - pathlib
+
+# Python Version: 3.6+

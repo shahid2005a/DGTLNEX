@@ -1,0 +1,420 @@
+================================================================================
+  ██████╗  ██████╗ ████████╗██╗     ███╗   ██╗███████╗██╗  ██╗
+  ██╔══██╗██╔═══██╗╚══██╔══╝██║     ████╗  ██║██╔════╝╚██╗██╔╝
+  ██║  ██║██║   ██║   ██║   ██║     ██╔██╗ ██║█████╗   ╚███╔╝ 
+  ██║  ██║██║   ██║   ██║   ██║     ██║╚██╗██║██╔══╝   ██╔██╗ 
+  ██████╔╝╚██████╔╝   ██║   ███████╗██║ ╚████║███████╗██╔╝ ██╗
+  ╚═════╝  ╚═════╝    ╚═╝   ╚══════╝╚═╝  ╚═══╝╚══════╝╚═╝  ╚═╝
+================================================================================
+
+  🛡️  DGTL HTML PROTECT TOOL
+  📦  Version: 2.0
+  👨‍💻  Developer: Aryan-Afridi
+  🔗  GitHub: https://github.com/shahid2005a
+  📅  Build: 2026
+
+================================================================================
+                          TABLE OF CONTENTS
+================================================================================
+
+  1. Tool Overview
+  2. Features
+  3. Installation
+  4. Usage Guide
+  5. Code Breakdown
+  6. Protection Algorithm
+  7. Output Format
+  8. Troubleshooting
+  9. Commands
+  10. Author Info
+
+================================================================================
+                          1. TOOL OVERVIEW
+================================================================================
+
+  This is a Python-based HTML protection tool that compresses and encodes
+  HTML code using Zlib compression and Base64 encoding. It creates a
+  self-extracting HTML file that can be opened in any modern browser.
+
+  How it works:
+  ────────────────────────────────────────────────────────────────────────────
+  1. User pastes HTML code
+  2. Code is compressed using Zlib (level 6)
+  3. Compressed data is Base64 encoded
+  4. A wrapper HTML file is created
+  5. Browser decompresses and displays the original code
+
+  Perfect for:
+  ✓ Protecting your HTML source code
+  ✓ Reducing file size
+  ✓ Obfuscating code from casual viewers
+  ✓ Creating self-extracting HTML archives
+
+================================================================================
+                          2. FEATURES
+================================================================================
+
+  ⚡ CORE FEATURES:
+  ────────────────────────────────────────────────────────────────────────────
+  ✅ Zlib Compression        - Reduces file size by 60-80%
+  ✅ Base64 Encoding         - Converts binary to text
+  ✅ DecompressionStream API - Native browser decompression
+  ✅ Auto File Saving        - Saves to DGTL folder
+  ✅ Zero Dependencies       - Only uses Python built-in modules
+  ✅ Cross-platform          - Works on Termux, Linux, Windows, macOS
+
+  🎨 UI FEATURES:
+  ────────────────────────────────────────────────────────────────────────────
+  ✅ Ultra Glow Effects      - Neon green terminal colors
+  ✅ ASCII Art Logo          - Beautiful startup display
+  ✅ Professional Menu       - Clean and organized
+  ✅ Real-time Feedback      - Status messages and progress
+  ✅ File Size Display       - Shows protected file size
+
+  🔒 PROTECTION FEATURES:
+  ────────────────────────────────────────────────────────────────────────────
+  ✅ Compression             - Zlib compression level 6
+  ✅ Encoding                - Base64 encoding
+  ✅ Self-extracting         - HTML file with embedded decoder
+  ✅ Cross-browser           - Works in Chrome, Firefox, Edge, Safari
+
+================================================================================
+                          3. INSTALLATION
+================================================================================
+
+  📱 TERMUX (Android):
+  ────────────────────────────────────────────────────────────────────────────
+  Step 1: Update packages
+  $ pkg update && pkg upgrade -y
+
+  Step 2: Install Python
+  $ pkg install python -y
+
+  Step 3: Create script file
+  $ nano dgtl_protect.py
+
+  Step 4: Copy and paste the script
+
+  Step 5: Make executable
+  $ chmod +x dgtl_protect.py
+
+  Step 6: Run
+  $ python dgtl_protect.py
+
+  🐧 LINUX:
+  ────────────────────────────────────────────────────────────────────────────
+  Step 1: Update packages
+  $ sudo apt update && sudo apt upgrade -y
+
+  Step 2: Install Python
+  $ sudo apt install python3 -y
+
+  Step 3: Create script file
+  $ nano dgtl_protect.py
+
+  Step 4: Copy and paste the script
+
+  Step 5: Make executable
+  $ chmod +x dgtl_protect.py
+
+  Step 6: Run
+  $ python3 dgtl_protect.py
+
+  🪟 WINDOWS:
+  ────────────────────────────────────────────────────────────────────────────
+  Step 1: Install Python 3.6+ from python.org
+  Step 2: Create dgtl_protect.py
+  Step 3: Copy and paste the script
+  Step 4: Run: python dgtl_protect.py
+
+================================================================================
+                          4. USAGE GUIDE
+================================================================================
+
+  📝 STEP-BY-STEP:
+  ────────────────────────────────────────────────────────────────────────────
+  
+  1. Run the tool:
+     $ python dgtl_protect.py
+
+  2. You'll see the menu:
+     ┌─────────────────────────────────────────────┐
+     │  1. 🛡️  PROTECT HTML                        │
+     │  2. 🚪  EXIT                                │
+     └─────────────────────────────────────────────┘
+
+  3. Select option 1:
+     Enter Choice (1/2) » 1
+
+  4. Paste your HTML code:
+     ┌─────────────────────────────────────────────┐
+     │  📝  PASTE HTML CODE BELOW                  │
+     │  Press Ctrl+D when done, Ctrl+C to cancel   │
+     └─────────────────────────────────────────────┘
+
+  5. Press Ctrl+D to submit
+
+  6. Protected file saved:
+     ✅ HTML Protected Successfully!
+     📁 Saved » /storage/emulated/0/DGTL/protected.html
+     📏 Size » XXXX bytes
+
+  ⌨️ KEYBOARD SHORTCUTS:
+  ────────────────────────────────────────────────────────────────────────────
+  Ctrl+D    : Submit code (when pasting)
+  Ctrl+C    : Cancel operation
+  Ctrl+Z    : Exit tool
+
+================================================================================
+                          5. CODE BREAKDOWN
+================================================================================
+
+  📁 FILE STRUCTURE:
+  ────────────────────────────────────────────────────────────────────────────
+  dgtl_protect.py
+  ├── Colors & Effects (Lines 1-30)
+  │   └── NEON_GREEN, GLOW_CYAN, etc.
+  ├── ASCII Logo (Lines 32-76)
+  │   └── Multi-line ASCII art
+  ├── protect_html_fast() (Lines 78-113)
+  │   ├── Zlib compression
+  │   ├── Base64 encoding
+  │   └── HTML wrapper generation
+  └── main() (Lines 115-198)
+      ├── Clear screen
+      ├── Print logo & menu
+      ├── Create DGTL folder
+      ├── Handle user input
+      └── Save protected file
+
+  🔧 FUNCTIONS:
+  ────────────────────────────────────────────────────────────────────────────
+  
+  protect_html_fast(html_code):
+  ────────────────────────────────────────────────────────────────────────────
+  Purpose: Compress and encode HTML code
+  Input:   HTML code as string
+  Output:  Protected HTML as string
+  Steps:
+    1. Compress using zlib.compress(level=6)
+    2. Encode with base64.b64encode()
+    3. Generate HTML wrapper with decoder
+    4. Return protected HTML
+
+  main():
+  ────────────────────────────────────────────────────────────────────────────
+  Purpose: Main program flow
+  Steps:
+    1. Clear screen
+    2. Display logo and menu
+    3. Create DGTL folder
+    4. Handle user choices
+    5. Process HTML protection
+    6. Save file and show results
+
+================================================================================
+                          6. PROTECTION ALGORITHM
+================================================================================
+
+  🔄 HOW IT WORKS:
+  ────────────────────────────────────────────────────────────────────────────
+  
+  1. COMPRESSION STAGE:
+  ┌─────────────────────────────────────────────────────────────┐
+  │  Original HTML (100KB)                                     │
+  │  ↓ zlib.compress(level=6)                                  │
+  │  Compressed Data (25KB)                                    │
+  └─────────────────────────────────────────────────────────────┘
+
+  2. ENCODING STAGE:
+  ┌─────────────────────────────────────────────────────────────┐
+  │  Compressed Data (25KB)                                    │
+  │  ↓ base64.b64encode()                                      │
+  │  Base64 String (33KB)                                      │
+  └─────────────────────────────────────────────────────────────┘
+
+  3. WRAPPER CREATION:
+  ┌─────────────────────────────────────────────────────────────┐
+  │  HTML Wrapper + Base64 Data                               │
+  │  ↓ Saved to protected.html                                │
+  │  Final Output (35KB)                                      │
+  └─────────────────────────────────────────────────────────────┘
+
+  4. DECOMPRESSION (Browser):
+  ┌─────────────────────────────────────────────────────────────┐
+  │  protected.html loaded in browser                         │
+  │  ↓ atob() decodes Base64                                  │
+  │  Binary data                                              │
+  │  ↓ DecompressionStream API                                │
+  │  Original HTML restored                                   │
+  └─────────────────────────────────────────────────────────────┘
+
+  📊 FILE SIZE COMPARISON:
+  ────────────────────────────────────────────────────────────────────────────
+  Original:    100 KB (100%)
+  Compressed:  25 KB  (25%)
+  Base64:      33 KB  (33%)
+  Protected:   35 KB  (35%)
+  Savings:     65 KB  (65%)
+
+================================================================================
+                          7. OUTPUT FORMAT
+================================================================================
+
+  📁 OUTPUT STRUCTURE:
+  ────────────────────────────────────────────────────────────────────────────
+  
+  protected.html
+  ┌─────────────────────────────────────────────────────────────────┐
+  │  <!DOCTYPE html>                                               │
+  │  <html>                                                        │
+  │  <head>                                                        │
+  │    <meta charset="UTF-8">                                      │
+  │    <meta name="viewport" content="width=device-width, ...">   │
+  │    <title>Protected by Dgtl Protect</title>                   │
+  │  </head>                                                       │
+  │  <body>                                                        │
+  │  <script>                                                      │
+  │  (function(){                                                   │
+  │    const data = "eJx1kU9P3DAQxb..."                         │
+  │    async function decode(){                                    │
+  │      const binary = atob(data);                                │
+  │      const bytes = new Uint8Array(binary.length);              │
+  │      for(let i = 0; i < binary.length; i++) {                  │
+  │        bytes[i] = binary.charCodeAt(i);                        │
+  │      }                                                         │
+  │      const stream = new DecompressionStream("deflate");        │
+  │      const writer = stream.writable.getWriter();               │
+  │      writer.write(bytes);                                      │
+  │      writer.close();                                           │
+  │      const buffer = await new Response(stream.readable)        │
+  │                            .arrayBuffer();                     │
+  │      return new TextDecoder().decode(buffer);                  │
+  │    }                                                           │
+  │    decode().then(html => {                                     │
+  │      document.open();                                          │
+  │      document.write(html);                                     │
+  │      document.close();                                         │
+  │    });                                                         │
+  │  })();                                                         │
+  │  </script>                                                     │
+  │  </body>                                                       │
+  │  </html>                                                       │
+  └─────────────────────────────────────────────────────────────────┘
+
+================================================================================
+                          8. TROUBLESHOOTING
+================================================================================
+
+  ⚠️ COMMON ERRORS:
+  ────────────────────────────────────────────────────────────────────────────
+
+  ❌ ERROR: "python: command not found"
+  ✅ SOLUTION: Install Python
+     Termux: pkg install python
+     Linux:  sudo apt install python3
+     Windows: Download from python.org
+
+  ❌ ERROR: "No module named 'zlib'"
+  ✅ SOLUTION: zlib is built-in. Reinstall Python.
+
+  ❌ ERROR: "Permission denied"
+  ✅ SOLUTION: Make executable
+     $ chmod +x dgtl_protect.py
+
+  ❌ ERROR: "Cannot create folder"
+  ✅ SOLUTION: Storage permission
+     Termux: termux-setup-storage
+     Linux:  Check write permissions
+
+  ❌ ERROR: "DecompressionStream not supported"
+  ✅ SOLUTION: Use modern browser
+     - Chrome 80+
+     - Firefox 113+
+     - Edge 80+
+     - Safari 16.4+
+
+  ❌ ERROR: "Out of memory"
+  ✅ SOLUTION: HTML file too large
+     - Reduce HTML size
+     - Use smaller files
+
+  ❌ ERROR: "Invalid HTML"
+  ✅ SOLUTION: Check HTML syntax
+     - Validate HTML
+     - Remove special characters
+
+================================================================================
+                          9. COMMANDS
+================================================================================
+
+  🚀 RUN COMMANDS:
+  ────────────────────────────────────────────────────────────────────────────
+  # Termux / Linux
+  python dgtl_protect.py
+
+  # Linux with Python 3
+  python3 dgtl_protect.py
+
+  # Windows
+  python dgtl_protect.py
+
+  # Make executable and run
+  chmod +x dgtl_protect.py
+  ./dgtl_protect.py
+
+  📁 FILE COMMANDS:
+  ────────────────────────────────────────────────────────────────────────────
+  # List files
+  ls -la DGTL/
+
+  # View protected file
+  cat DGTL/protected.html
+
+  # View in browser
+  xdg-open DGTL/protected.html  # Linux
+  start DGTL/protected.html      # Windows
+  open DGTL/protected.html       # macOS
+
+  # Delete protected file
+  rm DGTL/protected.html
+
+  🛠️ SETUP COMMANDS:
+  ────────────────────────────────────────────────────────────────────────────
+  # Create alias
+  alias dgtl='python3 ~/dgtl_protect.py'
+
+  # Add to bashrc
+  echo 'alias dgtl="python ~/dgtl_protect.py"' >> ~/.bashrc
+  source ~/.bashrc
+
+================================================================================
+                          10. AUTHOR INFO
+================================================================================
+
+  👨‍💻 DEVELOPER INFORMATION:
+  ────────────────────────────────────────────────────────────────────────────
+
+  Name: Aryan-Afridi
+  GitHub: https://github.com/shahid2005a
+  YouTube 1: https://www.youtube.com/@aryanafridi00
+  YouTube 2: https://www.youtube.com/@DGTLCYBER
+  Website 1: https://dgtlstore.xo.je
+  Website 2: https://firebasehack.wuaze.com
+  Telegram Bot 1: https://t.me/encrypt_code_decode_Bot
+  Telegram Bot 2: https://t.me/GsmhackerBot
+
+  📧 Contact:
+  Open an issue on GitHub for support:
+  https://github.com/shahid2005a/DGTLNEX/issues
+
+  ⭐ Support:
+  If you find this tool useful, please star the repository!
+  Share with your friends and fellow developers!
+
+  📜 License:
+  MIT License - Free to use, modify, and distribute
+
+================================================================================
+                     THANK YOU FOR USING DGTL PROTECT! 🚀
+================================================================================
