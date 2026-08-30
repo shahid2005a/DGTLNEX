@@ -80,7 +80,45 @@
   <img src="https://img.shields.io/badge/📚-Full_Documentation-00BFFF?style=for-the-badge"/>
 </p>
 
-DGTLNEX HTML Protect is an enterprise-grade HTML code protection solution that employs military-level encryption, advanced obfuscation techniques, and multi-layer security protocols to safeguard your web assets from unauthorized access, code theft, and reverse engineering. Built with cutting-edge security standards including AES-256 encryption, RSA 4096-bit key exchange, and triple-layer obfuscation, this tool provides comprehensive protection for your digital assets.
+🔒 DGTL HTML PROTECT v2.0
+
+---
+
+🛡️ Apne HTML Code Ko Chhupayein!
+
+Ye tool aapke HTML code ko encrypt karta hai taaki koi source code na dekh sake. Compression + Encoding se secure ho jata hai!
+
+---
+
+⚡ Kaise Use Karein?
+
+```
+1. Tool Run Karein → python man.py
+2. Option 1 Press Karein
+3. HTML Code Paste Karein
+4. Ctrl+D Dabayein
+5. Protected File Save Ho Jayegi!
+```
+
+---
+
+📁 File Kahan Milegi?
+
+· Android: /storage/emulated/0/DGTL/protected.html
+· PC/Laptop: DGTL/protected.html
+
+---
+
+✨ Kya Khas Hai?
+
+Feature Benefit
+🔐 ZLIB + Base64 Code secure
+🚀 1 Second Mein Fast protection
+📱 Android Support Termux mein chalega
+🎨 Glow Interface Stylish look
+
+---
+
 
 ---
 
