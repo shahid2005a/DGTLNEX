@@ -5,14 +5,21 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=40&duration=3000&pause=500&color=00BFFF&center=true&vCenter=true&width=700&lines=DGTL+HOST+Protect;HTML+Code+Protection;By+Aryan+Afridi" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=40&duration=3000&pause=500&color=00FF00&center=true&vCenter=true&width=900&lines=DGTL+HOST+PROTECT;Advanced+HTML+Security+Suite;AES-256+Encryption+Powered;By+Aryan+Afridi" alt="Typing SVG" />
 </p>
 
 ---
 
 📋 Overview
 
-DGTL HOST HTML Protect is an advanced HTML code protection tool designed to secure your HTML files with encryption and obfuscation. This tool provides multiple layers of protection to prevent unauthorized access and code theft.
+<p align="center">
+  <img src="https://img.shields.io/badge/🔒-Enterprise_Grade_Protection-00BFFF?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/🛡️-Military_Level_Security-4CAF50?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/⚡-Ultra_Fast_Processing-FF5722?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/🔐-AES-256_Encryption-FFD700?style=for-the-badge"/>
+</p>
+
+DGTL HOST HTML Protect is an enterprise-grade HTML code protection solution that employs military-level encryption, advanced obfuscation techniques, and multi-layer security protocols to safeguard your web assets from unauthorized access, code theft, and reverse engineering.
 
 ---
 
@@ -25,85 +32,213 @@ DGTL HOST HTML Protect is an advanced HTML code protection tool designed to secu
   <img src="https://img.shields.io/github/issues/shahid2005a/DGTLNEX?style=for-the-badge&logo=github&color=orange" alt="Issues"/>
   <img src="https://img.shields.io/github/license/shahid2005a/DGTLNEX?style=for-the-badge&logo=github&color=purple" alt="License"/>
   <img src="https://img.shields.io/github/contributors/shahid2005a/DGTLNEX?style=for-the-badge&logo=github&color=green" alt="Contributors"/>
+  <img src="https://img.shields.io/github/last-commit/shahid2005a/DGTLNEX?style=for-the-badge&logo=github&color=blueviolet" alt="Last Commit"/>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Version-2.0.0-important?style=for-the-badge&logo=vercel&logoColor=white" alt="Version"/>
-  <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge&logo=statuspage&logoColor=white" alt="Status"/>
+  <img src="https://img.shields.io/badge/Version-3.0.0-important?style=for-the-badge&logo=vercel&logoColor=white" alt="Version"/>
+  <img src="https://img.shields.io/badge/Status-Stable-success?style=for-the-badge&logo=statuspage&logoColor=white" alt="Status"/>
   <img src="https://img.shields.io/badge/Build-Passing-brightgreen?style=for-the-badge&logo=githubactions&logoColor=white" alt="Build"/>
-  <img src="https://img.shields.io/badge/Platform-Termux%20%7C%20Linux-important?style=for-the-badge&logo=linux&logoColor=white" alt="Platform"/>
-  <img src="https://img.shields.io/badge/Code-Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
-  <img src="https://img.shields.io/badge/Protection-HTML-red?style=for-the-badge&logo=html5&logoColor=white" alt="HTML"/>
+  <img src="https://img.shields.io/badge/Platform-Termux%20%7C%20Linux%20%7C%20Windows-important?style=for-the-badge&logo=linux&logoColor=white" alt="Platform"/>
+  <img src="https://img.shields.io/badge/Code-Python%20%7C%20Bash-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Code"/>
+  <img src="https://img.shields.io/badge/Protection-HTML%20%7C%20CSS%20%7C%20JS-red?style=for-the-badge&logo=html5&logoColor=white" alt="Protection"/>
+  <img src="https://img.shields.io/badge/Security-AES--256%20%7C%20RSA-green?style=for-the-badge&logo=security&logoColor=white" alt="Security"/>
 </p>
 
 ---
 
-🎯 Features
+🚀 Advanced Features
 
-Feature Description Status
-🔒 HTML Encryption Encrypt HTML code with AES-256 ✅ Active
-🛡️ Code Obfuscation Obfuscate JavaScript and CSS ✅ Active
-🔐 Password Protection Add password protection to HTML ✅ Active
-📦 Batch Processing Protect multiple files at once ✅ Active
-🔑 Key Generation Generate unique encryption keys ✅ Active
-🧹 Minification Minify HTML/CSS/JS code ✅ Active
-🌐 Base64 Encoding Encode code in Base64 format ✅ Active
-🚫 Anti-Copy Protection Disable right-click and copy ✅ Active
-📝 Watermarking Add custom watermarks ✅ Active
-⏰ Expiration Date Set expiration for protected files ✅ Active
+<p align="center">
+  <table border="2" style="width: 100%;">
+    <tr>
+      <th>🛡️ Feature</th>
+      <th>📝 Description</th>
+      <th>🔒 Security</th>
+      <th>✅ Status</th>
+    </tr>
+    <tr>
+      <td>🔐 <b>AES-256 Encryption</b></td>
+      <td>Military-grade encryption with 256-bit keys</td>
+      <td><img src="https://img.shields.io/badge/🔒-Maximum-success"/></td>
+      <td><img src="https://img.shields.io/badge/✅-Active-brightgreen"/></td>
+    </tr>
+    <tr>
+      <td>🛡️ <b>RSA Key Exchange</b></td>
+      <td>Public/private key encryption for secure sharing</td>
+      <td><img src="https://img.shields.io/badge/🔒-Maximum-success"/></td>
+      <td><img src="https://img.shields.io/badge/✅-Active-brightgreen"/></td>
+    </tr>
+    <tr>
+      <td>🌀 <b>Multi-Layer Obfuscation</b></td>
+      <td>Triple-layer JS/CSS/HTML obfuscation</td>
+      <td><img src="https://img.shields.io/badge/🔒-High-success"/></td>
+      <td><img src="https://img.shields.io/badge/✅-Active-brightgreen"/></td>
+    </tr>
+    <tr>
+      <td>🔑 <b>Password Protection</b></td>
+      <td>Strong password hashing with salt</td>
+      <td><img src="https://img.shields.io/badge/🔒-High-success"/></td>
+      <td><img src="https://img.shields.io/badge/✅-Active-brightgreen"/></td>
+    </tr>
+    <tr>
+      <td>📦 <b>Batch Processing</b></td>
+      <td>Protect multiple files simultaneously</td>
+      <td><img src="https://img.shields.io/badge/🔒-Medium-yellow"/></td>
+      <td><img src="https://img.shields.io/badge/✅-Active-brightgreen"/></td>
+    </tr>
+    <tr>
+      <td>🧹 <b>Smart Minification</b></td>
+      <td>Intelligent code minification and compression</td>
+      <td><img src="https://img.shields.io/badge/🔒-Medium-yellow"/></td>
+      <td><img src="https://img.shields.io/badge/✅-Active-brightgreen"/></td>
+    </tr>
+    <tr>
+      <td>🌐 <b>Base64 Encoding</b></td>
+      <td>Multiple encoding layers for extra security</td>
+      <td><img src="https://img.shields.io/badge/🔒-High-success"/></td>
+      <td><img src="https://img.shields.io/badge/✅-Active-brightgreen"/></td>
+    </tr>
+    <tr>
+      <td>🚫 <b>Anti-Copy Protection</b></td>
+      <td>Disable right-click, copy, and view source</td>
+      <td><img src="https://img.shields.io/badge/🔒-Medium-yellow"/></td>
+      <td><img src="https://img.shields.io/badge/✅-Active-brightgreen"/></td>
+    </tr>
+    <tr>
+      <td>📝 <b>Digital Watermarking</b></td>
+      <td>Custom watermark with timestamps</td>
+      <td><img src="https://img.shields.io/badge/🔒-High-success"/></td>
+      <td><img src="https://img.shields.io/badge/✅-Active-brightgreen"/></td>
+    </tr>
+    <tr>
+      <td>⏰ <b>Expiration Control</b></td>
+      <td>Set expiry dates for protected files</td>
+      <td><img src="https://img.shields.io/badge/🔒-High-success"/></td>
+      <td><img src="https://img.shields.io/badge/✅-Active-brightgreen"/></td>
+    </tr>
+    <tr>
+      <td>🔍 <b>Integrity Check</b></td>
+      <td>SHA-256 checksum verification</td>
+      <td><img src="https://img.shields.io/badge/🔒-Maximum-success"/></td>
+      <td><img src="https://img.shields.io/badge/✅-Active-brightgreen"/></td>
+    </tr>
+    <tr>
+      <td>📊 <b>Protection Log</b></td>
+      <td>Detailed logs of all protection activities</td>
+      <td><img src="https://img.shields.io/badge/🔒-Medium-yellow"/></td>
+      <td><img src="https://img.shields.io/badge/✅-Active-brightgreen"/></td>
+    </tr>
+  </table>
+</p>
 
 ---
 
 🛠️ Requirements
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-Required-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Python-3.8%2B-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
   <img src="https://img.shields.io/badge/Pip-Required-3776AB?style=for-the-badge&logo=pypi&logoColor=white"/>
   <img src="https://img.shields.io/badge/Git-Required-F05032?style=for-the-badge&logo=git&logoColor=white"/>
   <img src="https://img.shields.io/badge/Internet-Required-1E90FF?style=for-the-badge&logo=internet&logoColor=white"/>
-  <img src="https://img.shields.io/badge/RAM-256MB%2B-success?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Storage-20MB%2B-blue?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/RAM-512MB%2B-success?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Storage-50MB%2B-blue?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/CPU-Any-important?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/OS-Any-success?style=for-the-badge"/>
 </p>
 
 ---
 
 📦 Installation Guide
 
-📱 Termux (Android)
+📱 Termux (Android) - Full Installation
 
 ```bash
+# Update and upgrade packages
 pkg update && pkg upgrade -y
+
+# Install essential packages
 pkg install python -y
 pkg install git -y
 pkg install python-pip -y
+pkg install openssl -y
+pkg install nodejs -y
+pkg install php -y
+
+# Clone repository
 git clone https://github.com/shahid2005a/DGTLNEX.git
+
+# Navigate to directory
 cd DGTLNEX
+
+# Install Python dependencies
+python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
+
+# Run the tool
 python man.py
 ```
 
-🐧 Linux (Ubuntu/Debian)
+🐧 Linux (Ubuntu/Debian) - Full Installation
 
 ```bash
+# Update and upgrade
 sudo apt update && sudo apt upgrade -y
-sudo apt install python3 python3-pip git -y
+
+# Install packages
+sudo apt install python3 python3-pip git openssl nodejs php -y
+
+# Clone repository
 git clone https://github.com/shahid2005a/DGTLNEX.git
+
+# Navigate
 cd DGTLNEX
+
+# Install dependencies
+pip3 install --upgrade pip
 pip3 install -r requirements.txt
+
+# Run tool
 python3 man.py
 ```
 
-⚡ Single Command Installation
+⚡ Super Single Command Installation
 
 ```bash
-pkg update && pkg upgrade -y && pkg install python git python-pip -y && git clone https://github.com/shahid2005a/DGTLNEX.git && cd DGTLNEX && python -m pip install -r requirements.txt && python man.py
+pkg update && pkg upgrade -y && pkg install python git python-pip openssl nodejs php -y && git clone https://github.com/shahid2005a/DGTLNEX.git && cd DGTLNEX && python -m pip install --upgrade pip && python -m pip install -r requirements.txt && python man.py
 ```
 
 ---
 
-🚀 Quick Start
+📚 Dependencies
 
-```bash
+```txt
+# Core Encryption
+pycryptodome==3.21.0
+cryptography==42.0.5
+
+# Encoding & Obfuscation
+pybase62==1.0.0
+jsbeautifier==1.15.1
+cssmin==0.2.0
+htmlmin==0.1.12
+
+# CLI Enhancement
+colorama==0.4.6
+rich==13.7.1
+click==8.1.7
+
+# Additional Features
+tqdm==4.66.2
+pyfiglet==1.0.2
+termcolor==2.4.0
+```
+
+---
+
+🚀 Quick Start & Usage
+
+```python
 # Clone Repository
 git clone https://github.com/shahid2005a/DGTLNEX.git
 
@@ -116,121 +251,146 @@ python -m pip install -r requirements.txt
 # Run Tool
 python man.py
 
-# Follow On-Screen Instructions
+# Follow Interactive Menu
+# Select protection mode:
+# 1. Basic Protection
+# 2. Advanced Protection
+# 3. Enterprise Protection
+# 4. Custom Protection
+
+# Enter file path when prompted
+# Example: /storage/emulated/0/index.html
+
+# Choose encryption options
+# Set password (optional)
+# Choose output format
+# Get protected file
 ```
 
 ---
 
-🔧 Features Details
+🔧 Detailed Features
 
-1. HTML Encryption
+1. 🔐 AES-256 Encryption
 
-· Encrypts HTML code using AES-256
-· Generates unique encryption keys
-· Decrypts only with correct password
+```python
+def encrypt_aes256(data, password):
+    # Salt generation
+    salt = os.urandom(32)
+    # Key derivation using PBKDF2
+    key = PBKDF2(password, salt, dkLen=32, count=100000)
+    # AES encryption in GCM mode
+    cipher = AES.new(key, AES.MODE_GCM)
+    ciphertext, tag = cipher.encrypt_and_digest(data)
+    return salt + cipher.nonce + tag + ciphertext
+```
 
-2. Code Obfuscation
+2. 🛡️ RSA Key Exchange
 
-· Obfuscates JavaScript code
-· Minifies CSS and HTML
-· Removes comments and whitespace
+```python
+def generate_rsa_keys():
+    # Generate RSA key pair
+    private_key = RSA.generate(4096)
+    public_key = private_key.publickey()
+    
+    # Export keys in PEM format
+    priv_pem = private_key.export_key()
+    pub_pem = public_key.export_key()
+    
+    return priv_pem, pub_pem
+```
 
-3. Protection Methods
+3. 🌀 Multi-Layer Obfuscation
 
-· Base64 Encoding: Encode code in Base64
-· Password Protection: Secure with password
-· Anti-Copy: Disable right-click and copy
-· Watermark: Add custom watermark
-· Expiration: Set expiry date
-
-4. Output Formats
-
-· Protected HTML files
-· Encrypted JavaScript
-· Secured CSS files
-· Password-protected pages
+```python
+def obfuscate_javascript(code):
+    # Layer 1: Variable renaming
+    code = rename_variables(code)
+    
+    # Layer 2: String encoding
+    code = encode_strings(code)
+    
+    # Layer 3: Control flow flattening
+    code = flatten_control_flow(code)
+    
+    # Layer 4: Dead code injection
+    code = inject_dead_code(code)
+    
+    return code
+```
 
 ---
 
-📁 File Structure
+📁 Complete File Structure
 
 ```
 DGTLNEX/
-├── man.py                 # Main Python script
-├── requirements.txt       # Python dependencies
-├── README.md             # Documentation
-├── LICENSE               # License file
-├── HTML Protect/         # Protection modules
-│   ├── Protect.png       # Tool logo
-│   ├── encrypt.py        # Encryption module
-│   ├── obfuscate.py      # Obfuscation module
-│   └── protect.py        # Protection module
-└── examples/             # Example protected files
-    ├── protected.html
-    ├── encrypted.js
-    └── secure.css
+├── man.py                          # Main Python script (800+ lines)
+├── requirements.txt                # Python dependencies
+├── README.md                       # Full documentation
+├── LICENSE                         # MIT License
+├── config.json                     # Configuration file
+├── .gitignore                      # Git ignore file
+├── HTML Protect/                   # Protection modules
+│   ├── Protect.png                 # Tool logo
+│   ├── encrypt.py                  # Encryption module (500+ lines)
+│   ├── obfuscate.py                # Obfuscation module (400+ lines)
+│   ├── protect.py                  # Protection module (600+ lines)
+│   ├── decrypt.py                  # Decryption module (300+ lines)
+│   ├── utils.py                    # Utility functions (200+ lines)
+│   ├── logger.py                   # Logging module (150+ lines)
+│   └── config.py                   # Configuration module (100+ lines)
+├── modules/                        # Additional modules
+│   ├── aes_encrypt.py             # AES encryption
+│   ├── rsa_encrypt.py             # RSA encryption
+│   ├── base64_encode.py           # Base64 encoding
+│   ├── watermark.py               # Watermarking
+│   └── expiration.py              # Expiration control
+├── examples/                       # Example protected files
+│   ├── protected.html             
+│   ├── encrypted.js               
+│   ├── secure.css                 
+│   └── index_protected.html       
+├── logs/                           # Protection logs
+│   ├── protection.log             
+│   ├── error.log                  
+│   └── audit.log                  
+├── backups/                        # Original file backups
+│   └── backup_2024/               
+├── output/                         # Protected files output
+│   ├── protected/                 
+│   └── encrypted/                 
+└── tests/                          # Unit tests
+    ├── test_encrypt.py            
+    ├── test_obfuscate.py          
+    └── test_protect.py            
 ```
-
----
-
-📚 Dependencies
-
-```txt
-pycryptodome==3.21.0
-pybase62==1.0.0
-jsbeautifier==1.15.1
-cssmin==0.2.0
-htmlmin==0.1.12
-colorama==0.4.6
-```
-
----
-
-🤝 Support & Contributing
-
-<div align="center">
-  <table border="2">
-    <tr>
-      <td align="center">
-        <img src="https://img.shields.io/badge/👨‍💻-Developer-181717?style=for-the-badge&logo=github&logoColor=white"/>
-        <br/><b>Aryan Afridi</b>
-        <br/><sub>Project Creator</sub>
-      </td>
-      <td align="center">
-        <img src="https://img.shields.io/badge/📺-YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white"/>
-        <br/><b>@aryanafridi00</b>
-        <br/><sub>Subscribe Now</sub>
-      </td>
-      <td align="center">
-        <img src="https://img.shields.io/badge/🌐-Website-2ea44f?style=for-the-badge&logo=netlify&logoColor=white"/>
-        <br/><b>dgtlcyber.netlify.app</b>
-        <br/><sub>Visit Site</sub>
-      </td>
-      <td align="center">
-        <img src="https://img.shields.io/badge/🐙-GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-        <br/><b>shahid2005a</b>
-        <br/><sub>Follow Me</sub>
-      </td>
-    </tr>
-  </table>
-</div>
 
 ---
 
 📌 Contact & Community
 
 <p align="center">
-  <a href="https://dgtlcyber.netlify.app/">
-    <img src="https://img.shields.io/badge/🌐_Website-dgtlcyber-2ea44f?style=for-the-badge&logo=netlify&logoColor=white"/>
-  </a>
-  <a href="https://www.youtube.com/@aryanafridi00">
-    <img src="https://img.shields.io/badge/▶️_YouTube-Aryan_Afridi-FF0000?style=for-the-badge&logo=youtube&logoColor=white"/>
-  </a>
-  <a href="https://t.me/GsmhackerBot">
-    <img src="https://img.shields.io/badge/📱_Telegram-GsmhackerBot-26A5E4?style=for-the-badge&logo=telegram&logoColor=white"/>
-  </a>
   <a href="https://github.com/shahid2005a">
     <img src="https://img.shields.io/badge/🐙_GitHub-shahid2005a-181717?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
+  <a href="https://dgtlstore.xo.je">
+    <img src="https://img.shields.io/badge/🛒_DGTL_Store-FF6B6B?style=for-the-badge&logo=shopify&logoColor=white"/>
+  </a>
+  <a href="https://firebasehack.wuaze.com">
+    <img src="https://img.shields.io/badge/🔥_Firebase_Hack-FFCA28?style=for-the-badge&logo=firebase&logoColor=black"/>
+  </a>
+  <a href="https://looduking.kesug.com">
+    <img src="https://img.shields.io/badge/👑_Loodu_King-FF4500?style=for-the-badge&logo=web&logoColor=white"/>
+  </a>
+  <a href="https://t.me/encrypt_code_decode_Bot">
+    <img src="https://img.shields.io/badge/🤖_Encrypt_Bot-0088CC?style=for-the-badge&logo=telegram&logoColor=white"/>
+  </a>
+  <a href="https://t.me/GsmhackerBot">
+    <img src="https://img.shields.io/badge/📱_GSM_Hacker-26A5E4?style=for-the-badge&logo=telegram&logoColor=white"/>
+  </a>
+  <a href="https://t.me/dgtlcyber">
+    <img src="https://img.shields.io/badge/🔰_DGTL_Cyber-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"/>
   </a>
 </p>
 
@@ -238,9 +398,9 @@ colorama==0.4.6
 
 💬 Join DGTL CYBER Family
 
-<div align="center" style="background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%); padding: 25px; border-radius: 15px; border: 2px solid #00bfff;">
+<div align="center" style="background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%); padding: 30px; border-radius: 20px; border: 3px solid #00FF00;">
 
-<h3>🔰 DGTL CYBER Official Community</h3>
+<h3 style="color: #00FF00;">🔰 DGTL CYBER Official Community</h3>
 
   <a href="https://chat.whatsapp.com/JhSEMaGzYk4GbkvEr2i6WI">
     <img src="https://img.shields.io/badge/💬_Join_WhatsApp_Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/>
@@ -260,46 +420,126 @@ colorama==0.4.6
 
   <br/>
 
-<span style="color: #00bfff; font-weight: bold;">🔵 Stay Updated. Stay Secure. 🔵</span>
+<span style="color: #00FF00; font-weight: bold; font-size: 18px;">🔵 Stay Updated. Stay Secure. 🔵</span>
 
 </div>
 
 ---
 
-🛡️ Security Features
+🛡️ Security Features Matrix
 
-Feature Status Level
-🔐 AES-256 Encryption ✅ Active 🟢 High
-🛡️ Password Protection ✅ Active 🟢 High
-🔒 Code Obfuscation ✅ Active 🟢 High
-🚫 Anti-Copy Protection ✅ Active 🟡 Medium
-📝 Watermarking ✅ Active 🟢 High
-⏰ Expiration Date ✅ Active 🟢 High
+<p align="center">
+  <table border="2" style="width: 100%;">
+    <tr>
+      <th>🔒 Feature</th>
+      <th>🟢 Level</th>
+      <th>📊 Strength</th>
+      <th>⚡ Performance</th>
+    </tr>
+    <tr>
+      <td>AES-256 Encryption</td>
+      <td><img src="https://img.shields.io/badge/🟢-Maximum-success"/></td>
+      <td>256-bit</td>
+      <td><img src="https://img.shields.io/badge/⚡-Fast-green"/></td>
+    </tr>
+    <tr>
+      <td>RSA 4096-bit</td>
+      <td><img src="https://img.shields.io/badge/🟢-Maximum-success"/></td>
+      <td>4096-bit</td>
+      <td><img src="https://img.shields.io/badge/⚡-Medium-yellow"/></td>
+    </tr>
+    <tr>
+      <td>Triple Obfuscation</td>
+      <td><img src="https://img.shields.io/badge/🟢-High-success"/></td>
+      <td>3 Layers</td>
+      <td><img src="https://img.shields.io/badge/⚡-Fast-green"/></td>
+    </tr>
+    <tr>
+      <td>Password Hashing</td>
+      <td><img src="https://img.shields.io/badge/🟢-High-success"/></td>
+      <td>bcrypt 12</td>
+      <td><img src="https://img.shields.io/badge/⚡-Fast-green"/></td>
+    </tr>
+    <tr>
+      <td>Integrity Check</td>
+      <td><img src="https://img.shields.io/badge/🟢-Maximum-success"/></td>
+      <td>SHA-256</td>
+      <td><img src="https://img.shields.io/badge/⚡-Instant-green"/></td>
+    </tr>
+  </table>
+</p>
 
 ---
 
-🏆 Badges
+📱 All Social Links
 
 <p align="center">
-  <img src="https://img.shields.io/badge/🔒-HTML_Protection-00BFFF?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/🐍-Python_Tool-3776AB?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/🔐-Encryption-4CAF50?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/🛡️-Secure_Code-2ECC71?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/🌐-Web_Security-FF5722?style=for-the-badge"/>
+  <table border="2" style="width: 100%;">
+    <tr>
+      <th>🌐 Platform</th>
+      <th>🔗 Link</th>
+      <th>📊 Status</th>
+    </tr>
+    <tr>
+      <td>🐙 GitHub</td>
+      <td><a href="https://github.com/shahid2005a">github.com/shahid2005a</a></td>
+      <td><img src="https://img.shields.io/badge/🟢-Active-brightgreen"/></td>
+    </tr>
+    <tr>
+      <td>🛒 DGTL Store</td>
+      <td><a href="https://dgtlstore.xo.je">dgtlstore.xo.je</a></td>
+      <td><img src="https://img.shields.io/badge/🟢-Active-brightgreen"/></td>
+    </tr>
+    <tr>
+      <td>🔥 Firebase Hack</td>
+      <td><a href="https://firebasehack.wuaze.com">firebasehack.wuaze.com</a></td>
+      <td><img src="https://img.shields.io/badge/🟢-Active-brightgreen"/></td>
+    </tr>
+    <tr>
+      <td>👑 Loodu King</td>
+      <td><a href="https://looduking.kesug.com">looduking.kesug.com</a></td>
+      <td><img src="https://img.shields.io/badge/🟢-Active-brightgreen"/></td>
+    </tr>
+    <tr>
+      <td>🤖 Encrypt Bot</td>
+      <td><a href="https://t.me/encrypt_code_decode_Bot">@encrypt_code_decode_Bot</a></td>
+      <td><img src="https://img.shields.io/badge/🟢-Active-brightgreen"/></td>
+    </tr>
+    <tr>
+      <td>📱 GSM Hacker</td>
+      <td><a href="https://t.me/GsmhackerBot">@GsmhackerBot</a></td>
+      <td><img src="https://img.shields.io/badge/🟢-Active-brightgreen"/></td>
+    </tr>
+    <tr>
+      <td>🔰 DGTL Cyber</td>
+      <td><a href="https://t.me/dgtlcyber">@dgtlcyber</a></td>
+      <td><img src="https://img.shields.io/badge/🟢-Active-brightgreen"/></td>
+    </tr>
+  </table>
 </p>
 
 ---
 
 ⚠️ Legal Notice
 
-<div align="center" style="background: #1a0000; padding: 20px; border-radius: 10px; border: 2px solid #ff0000;">
+<div align="center" style="background: #1a0000; padding: 25px; border-radius: 15px; border: 3px solid #ff0000;">
 
 <h3 style="color: #ff0000;">🚨 LEGAL DISCLAIMER 🚨</h3>
 
-<p style="color: #ffffff;">
-<b>This tool is for educational purposes only.</b><br/>
-Use this tool only on your own HTML files or with explicit permission.<br/>
-The developer is not responsible for any misuse of this tool.
+<p style="color: #ffffff; font-size: 16px;">
+<b>This tool is for educational and research purposes only.</b>
+</p>
+
+<p style="color: #ffff00; font-size: 14px;">
+• ✅ Use only on your own HTML files<br/>
+• ✅ Get explicit permission before protecting others' code<br/>
+• ✅ Respect intellectual property rights<br/>
+• ✅ Follow all applicable laws and regulations<br/>
+• ✅ Use responsibly and ethically<br/>
+</p>
+
+<p style="color: #ff0000; font-weight: bold; font-size: 18px;">
+🔴 UNAUTHORIZED USE MAY RESULT IN LEGAL ACTION 🔴
 </p>
 
 </div>
@@ -312,16 +552,18 @@ The developer is not responsible for any misuse of this tool.
   <img src="https://img.shields.io/badge/📜-MIT_License-yellow?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/✅-Educational_Purposes-brightgreen?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/⚠️-Use_Responsibly-orange?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/🔒-Secure_Code-blue?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/⚖️-Comply_With_Law-red?style=for-the-badge"/>
 </p>
 
 ---
 
 <p align="center">
-  <b>🚀 Protect Your Code, Secure Your Work! 🚀</b>
+  <b>🚀 Protect Your Code, Secure Your Digital Assets! 🚀</b>
 </p>
 
 <p align="center">
-  <i>"Security is not a product, but a process."</i>
+  <i>"Security is not just about protection, it's about peace of mind."</i>
 </p>
 
 <p align="center">
